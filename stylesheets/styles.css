@@ -40,12 +40,6 @@ a {
     flex: 0 1 auto;
 }
 
-.main-content {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-}
-
 .logo-text {
     background: white;
 
@@ -53,6 +47,12 @@ a {
     text-transform: uppercase;
     font-family: lakeshore;
     font-size: 4rem;
+}
+
+.main-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .thumbnail-item + .thumbnail-item {
@@ -93,31 +93,31 @@ a {
         color: rgb(202, 238, 255);
 
         font-size: 18px;
-    }
+}
 
-    .detail-image-container {
-        flex: 1 1 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.detail-image-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .detail-image-frame {
-        position: relative;
-        text-align: center;
-    }
+.detail-image-frame {
+    position: relative;
+    text-align: center;
+}
 
-    .detail-image {
-        width: 90%;
-    }
+.detail-image {
+    width: 90%;
+}
 
-    .detail-image-title {
-        position: absolute;
-        bottom: -16px;
-        left: 4px;
+.detail-image-title {
+    position: absolute;
+    bottom: -16px;
+    left: 4px;
 
-        font-family: airstreamregular;
-        color: white;
-        text-shadow: rgba(0, 0, 0, 0.9) 5px 8px 30px;
-        font-size: 5em;
-    }
+    font-family: airstreamregular;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.9) 5px 8px 30px;
+    font-size: 5em;
+}
